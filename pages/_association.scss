@@ -4,7 +4,7 @@ main {
     color: rgb(65, 65, 200);
     margin: auto;
     padding: 10px;
-background-color: #c3b8ff;
+    background-color: #eae6fc;
 }
 
 main h1 {
@@ -13,8 +13,23 @@ main h1 {
 }
 main p {
     padding: 5px;
+    line-height: 1.8em;
+    text-align: justify;
 }
-
+main ol {
+  width: 60%;
+  margin: auto;
+  padding: 5px;
+  list-style-type: lower-roman;
+}
+main ol li {
+  margin: 5px;
+}
+main hr {
+  width: 40%;
+  margin: 20px auto;
+  border: 2pt solid black ;
+}
   
   .box {
     background-color: #fff;
@@ -31,14 +46,11 @@ main p {
   .conteneur {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px 200px;
+    grid-template-rows: 200px 200px;
     grid-gap: 10px;
   }
   
-  .quatre {
-      grid-column: 1 / 4;
-      grid-row: 2 / 3;
-  }
+
   
 
   

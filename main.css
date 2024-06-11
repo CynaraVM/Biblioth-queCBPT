@@ -15,7 +15,6 @@ body {
   width: 100%;
   position: relative;
   background: whitesmoke;
-  top: 20em;
   padding-top: 1em;
 }
 
@@ -513,7 +512,7 @@ main {
   color: rgb(65, 65, 200);
   margin: auto;
   padding: 10px;
-  background-color: #c3b8ff;
+  background-color: #eae6fc;
 }
 
 main h1 {
@@ -523,6 +522,25 @@ main h1 {
 
 main p {
   padding: 5px;
+  line-height: 1.8em;
+  text-align: justify;
+}
+
+main ol {
+  width: 60%;
+  margin: auto;
+  padding: 5px;
+  list-style-type: lower-roman;
+}
+
+main ol li {
+  margin: 5px;
+}
+
+main hr {
+  width: 40%;
+  margin: 20px auto;
+  border: 2pt solid black;
 }
 
 .box {
@@ -539,11 +557,28 @@ main p {
 .conteneur {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 300px 200px;
+  grid-template-rows: 200px 200px;
   grid-gap: 10px;
 }
 
-.quatre {
-  grid-column: 1/4;
-  grid-row: 2/3;
+.prix-container {
+  width: 100%;
+  padding-top: 1em;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnprix {
+  background-color: red;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.btnprix:hover {
+  background-color: rgb(123, 0, 0);
 }/*# sourceMappingURL=main.css.map */
