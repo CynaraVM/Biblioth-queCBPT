@@ -1,0 +1,23 @@
+footer{
+    background-color: rgb(65, 100, 200);
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    .copyright {
+        margin-left: 20px;
+    }
+
+}
+footer nav {
+    width: 100vw;
+}
+.nav_footer a {
+    color: white;
+    text-decoration: none;
+}
+.nav_footer a:hover {
+    background-color: white;
+    color: rgb(65, 100, 200);
+}
+

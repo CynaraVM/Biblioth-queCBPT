@@ -1,0 +1,35 @@
+.banner-area {
+    background-color:rgb(65, 100, 200) ;
+    height: 200px;
+}
+
+.banner-area h2 {
+    padding-top: 30px;
+    color: white;
+    letter-spacing: 3px;
+}
+.banner-area p {
+    font-family: "Dancing Script", cursive;
+    color: white;
+    padding: 10px;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+.banner-area p a {
+    color: white;
+    font-weight: bold;
+}
+.banner-area p a:hover {
+    color: rgb(65, 100, 200);
+    background-color: white;
+}
+
+.logo {
+    float: left;
+    text-align: left;
+    margin: 10px;
+}
+.logo img {
+    width: 200px;
+    height: 180px;
+}

@@ -1,0 +1,56 @@
+li{
+    list-style: none;
+}
+
+.bibliotime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.2em;
+    border-radius: 20px 20px 0 0; /* Coins supérieurs arrondis */
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(65, 100, 200);
+    color: white;
+    border: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(65, 100, 200);
+    cursor: pointer;
+    margin: 10px 10px 0 10px;
+}
+.bibliotime.open {
+    border-radius: 0px; /* Garde les coins supérieurs arrondis */
+}
+.hours {
+    display: none;
+    padding: 10px;
+    border-radius: 0 0 20px 20px; /* Coins inférieurs arrondis */
+    background-color: rgb(65, 100, 200);
+    animation: fadeIn 0.5s ease-in-out;
+    margin: 0 10px 10px 10px;
+    border-top: none;
+    color: white;
+}
+.hours.open {
+    border-radius: 0px; /* Coins inférieurs arrondis */
+}
+.hours.show {
+    display: block; /* Affiche les horaires */
+}
+.hours.show ~ .bibliotime {
+    border-radius: 20px 20px 0 0; /* Coins supérieurs arrondis lorsque les horaires sont affichés */
+}
+.hours.show ~ .bibliotime.open {
+    border-radius: 20px; /* Coins arrondis lorsque les horaires sont affichés */
+}
+.hours.show {
+    border-radius: 0 0 20px 20px; /* Coins inférieurs arrondis */
+}
+.bibliotime.open {
+    border-radius: 20px 20px 0 0; /* Coins supérieurs arrondis */
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

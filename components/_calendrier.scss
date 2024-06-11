@@ -1,0 +1,55 @@
+.calendar-container {
+    width: 100%;
+    padding-top: 1em;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 2% 0;
+}
+
+#month-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: rgb(65, 100, 200);
+    color: white;
+    border: 1px solid rgb(65, 100, 200);
+    border-radius: 100px;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5em;
+}
+
+.calendar .day {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.calendar .day:hover{
+    background-color: #ddd;
+    transition: 0.5s;
+}
+
+.calendar .header {
+    font-weight: bold;
+    background-color: rgb(85, 85, 206);
+    color: white;
+}
+
+.calendar .today {
+    background-color: rgb(65, 100, 200);
+    color: white;
+}
+
+.calendar .prev-date, .calendar .next-date {
+    color: #ccc;
+    opacity: 0.5;
+}
