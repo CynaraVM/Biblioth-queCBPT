@@ -1,7 +1,7 @@
 main {
     width: 80% ;
     text-align: left;
-    color: rgb(65, 65, 200);
+    color: rgb(65, 100, 200);
     margin: auto;
     padding: 10px;
     background-color: #eae6fc;
@@ -24,6 +24,19 @@ main ol {
 }
 main ol li {
   margin: 5px;
+}
+main p a.siteweb {
+  font-style: italic;
+  color: deeppink;
+}
+main ol li  a.siteweb {
+  font-style: italic;
+  color: deeppink;
+
+}
+main p .denomination {
+  color: blue;
+  font-weight: bold;
 }
 main hr {
   width: 40%;
