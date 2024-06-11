@@ -555,4 +555,16 @@ main p {
   border-radius: 10px;
   overflow: hidden;
   padding: 2% 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnprix {
+  background-color: red;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.btnprix:hover {
+  background-color: rgb(123, 0, 0);
 }/*# sourceMappingURL=main.css.map */
