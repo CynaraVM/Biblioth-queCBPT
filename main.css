@@ -596,4 +596,108 @@ main hr {
 
 .btnprix:hover {
   background-color: rgb(123, 0, 0);
+}
+
+.Platon, .kitSurvie {
+  width: 20%;
+  border-style: outset;
+  padding: 6px;
+  margin: 10px;
+  border-style: dashed;
+  border-color: blueviolet;
+}
+
+.photos {
+  width: 10%;
+  border-style: outset;
+  padding: 6px;
+  margin: 10px;
+}
+
+.textoContainer2 p {
+  width: 40%;
+  padding: 8px;
+  line-height: 1.5em;
+  margin: 10px;
+}
+
+.apropos .textoContainer2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.textoContainer1 p {
+  width: 80%;
+  margin: 10px;
+}
+
+.apropos .textoContainer1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.images {
+  text-align: center;
+}
+
+.image1 {
+  width: 50%;
+  margin-right: 20%;
+}
+
+.image2 {
+  width: 50%;
+}
+
+.infoPratique {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.localContainer {
+  width: 400px;
+  margin-left: 35%;
+  margin-bottom: 20px;
+}
+
+.localisation {
+  text-align: center;
+}
+
+.inscriptionEmbrunt {
+  text-align: center;
+}
+
+.tarifs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inscriptionEmbrunt .accès {
+  margin-left: 25%;
+}
+
+.tarifsInscription {
+  width: 40%;
+  margin: 20px;
+}
+
+.tarifsEmprunt {
+  width: 40%;
+  margin: 20px;
+}
+
+.facebookcontainer {
+  position: fixed;
+  bottom: 50%;
+  right: 100px;
 }/*# sourceMappingURL=main.css.map */
