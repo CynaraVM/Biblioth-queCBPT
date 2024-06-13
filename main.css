@@ -132,6 +132,7 @@ body {
 
 .imgcarousel {
   background-size: cover;
+  background-repeat: no-repeat;
   height: 30em;
   background-position: center;
   padding-top: 1%;
@@ -720,4 +721,14 @@ main hr {
   position: fixed;
   bottom: 50%;
   right: 100px;
+}
+
+.ludothèqueContainer ul li {
+  list-style-position: inside;
+  list-style-type: disc;
+}
+
+.ludothèqueContainer ol li {
+  list-style-position: inside;
+  list-style-type: decimal;
 }/*# sourceMappingURL=main.css.map */
