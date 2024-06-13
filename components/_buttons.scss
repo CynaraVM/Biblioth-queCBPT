@@ -1,0 +1,18 @@
+.bouton {
+    width: 200PX;
+    background-color: rgb(7, 7, 112);
+    color: white;
+    border: 4pt solid rgb(165, 8, 8);
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 1.5em;
+    cursor:pointer ;
+    display: inline-block;
+  } 
+  .bouton:hover {
+    background-color: rgb(165, 8, 8);
+    color: white;
+    border: 4pt solid rgb(7, 7, 112);
+  }
