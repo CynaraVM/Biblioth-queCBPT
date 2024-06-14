@@ -1,0 +1,58 @@
+.contact-container{
+    padding-top: 1em;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.butonsback{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1em;
+    width: 100%;
+}
+
+#inputcontact{
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+#send{
+    padding: 1em;
+    background-color: rgb(7, 7, 112);;
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    color: white;
+    width: 40%;
+}
+
+#send:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#reset{
+    padding: 1em;
+    background-color: rgb(165, 8, 8);
+    border: none;
+    border-radius: 20px;
+    font-size: 1em;
+    color: white;
+    width: 40%;
+}
+
+#reset:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contactlabel{
+    font-weight: bold;
+}
