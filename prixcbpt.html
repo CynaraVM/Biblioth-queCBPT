@@ -52,12 +52,68 @@
         <div class="wrapper">
             <h2 class="titre">Les prix CBPT</h2>
             <div class="prix-container">
-                <div class="btnprix">Le prix CBPT</div>
-                <div class="btnprix">Le prix livrentête</div>
-                <div class="btnprix">Le prix hors champ</div>
-                <div class="btnprix">Les prix régionaux</div>
-                </div>
+                <div class="boutons-container">
+                <div class="btnprix" onclick="toggleContent('content1')">Le prix CBPT</div>
+                <div class="btnprix" onclick="toggleContent('content2')">Le prix livrentête</div>
+                <div class="btnprix" onclick="toggleContent('content3')">Le prix hors champ</div>
+                <div class="btnprix" onclick="toggleContent('content4')">Les prix régionaux</div>
+            </div>
 
+            <div id="content1" class="content">
+                <h1 class="prix-cbpt">Le Prix CBPT</h1>
+
+                <h2 id="h2prixcbpt">Attribué pour la première fois en 1980</h2>
+                <p id="prixcbptp">Ce prix est reconnu par les professionnels du livre et est remis chaque année en mai lors de l'Assemblée Générale de l'Union Nationale. Il s'agit d'une distinction attribuée par des <span class="highlight">bibliothécaires</span>.</p>
+            
+                <h2 id="h2prixcbpt">Pourquoi ?</h2>
+                <p id="prixcbptp">L'objectif est de faire découvrir et reconnaître un <span class="highlight">auteur francophone</span> peu ou pas assez connu. En consultant le palmarès, on constate avec une certaine fierté que de nombreux auteurs ont vu leur talent confirmé par la suite.</p>
+            
+                <h2 id="h2prixcbpt">Sur quels critères ?</h2>
+                <p id="prixcbptp">Le prix est attribué à des <span class="highlight">romans</span>, à l'exception des romans policiers, y compris des premiers romans, publiés dans l'année en cours (de janvier à décembre), écrits par des <span class="highlight">auteurs francophones</span> qui n'ont pas encore reçu de prix majeurs.</p>
+            
+                <h2 id="h2prixcbpt">Comment ?</h2>
+                <p id="prixcbptp">Un comité de <span class="highlight">bibliothécaires</span>, en collaboration avec le service des Notes Bibliographiques (la revue d'analyse littéraire de l'UNCBPT), se réunit régulièrement pour rechercher des romans qui se distinguent par leur sujet et leur qualité littéraire. Chaque membre du comité lit tous les livres sélectionnés. Une première liste est établie en juin et est complétée par les publications de la rentrée de septembre, évoluant en fonction des prix littéraires.</p>
+            
+                <p id="prixcbptp">En parallèle, les "<span class="highlight">coups de cœur</span>" du réseau CBPT, collectés en fin d'année, sont confrontés à cette liste pour obtenir, en décembre, une sélection de quatre titres.</p>
+            
+                <p id="prixcbptp">Ces quatre titres sont soumis au vote des <span class="highlight">bibliothécaires</span> jusqu'au 15 avril, et le résultat de ce vote détermine le lauréat.</p>
+            </div>
+
+            <div id="content2" class="content">
+                <h2 id="h2prixcbpt">Le Prix Livrentête</h2>
+                <p id="prixcbptp">Depuis sa création en 2000 sous le haut patronage du Ministère de la Ville, de la Jeunesse et des Sports, le Prix Livrentête a pour objectif de faire lire aux jeunes des livres de qualité et découvrir le travail des auteurs, illustrateurs et éditeurs. Il permet de développer leur sens critique et d’exprimer leur avis sur la littérature jeunesse actuelle.</p>
+        
+                <p id="prixcbptp">Depuis 2014, Sophie Van der Linden, spécialiste en littérature Jeunesse, lui apporte son soutien et son expertise.</p>
+        
+                <p id="prixcbptp">D’ampleur nationale, il peut être organisé dans tous les lieux accueillant des jeunes : bibliothèques CBPT, bibliothèques et médiathèques municipales, établissements scolaires, centres de loisirs, établissements hospitaliers, etc.</p>
+        
+                <p id="prixcbptp">Le Prix LIVRENTÊTE propose plusieurs sélections en « Albums », « Premières Lectures », « Romans », et « Bandes Dessinées ». Elles sont établies par une commission de bibliothécaires spécialisés secteur Jeunesse avec la participation du comité de lecture des Notes Bibliographiques Jeunesse et des comités de lecture régionaux.</p>
+        
+                <p id="prixcbptp">Les livres, d’auteurs français ou étrangers, ont, pour la majorité été publiés dans les douze mois qui précèdent le lancement de l’opération.</p>
+            </div>
+
+            <div id="content3" class="content">
+                <h2 id="h2prixcbpt">Le Prix Hors Champ</h2>
+                <p id="prixcbptp">Créé en 2016, le prix Hors Champ mise sur la curiosité des lecteurs des bibliothèques CBPT, des  lecteurs au long cours, amoureux de littérature et qui ont soif de nouvelles émotions, tous âges et sensibilités confondus. Il se veut ouvert à des approches littéraires nouvelles et résonnant des échos du monde actuel.</p>
+            
+                <p id="prixcbptp">Le monde change, la littérature s’enrichit de nouveaux regards, de nouvelles formes…</p>
+            
+                <p id="prixcbptp">Impossible d’ignorer l’influence des supports culturels d’aujourd’hui sur la manière d’aborder l’écriture. Certains écrivains ont fait le pari d’en tenir compte. C’est leur domaine que se propose d’explorer le prix Hors Champ, celui de romans hors du champ de la littérature générale, sur le vaste territoire de l’édition.</p>
+            
+                <h2 id="h2prixcbpt">La sélection regroupe :</h2>
+                <ul id="prixcbptul">
+                    <li id="prixcbptppuce">> des romans où affleurent les préoccupations d’aujourd’hui : des sujets âpres, des personnages flirtant avec les limites dans des situations limites elles aussi. Des romans urbains, souvent.</li>
+                    <li id="prixcbptppuce">> des romans dans lesquels on entre vite, sans préambule, des romans d’action qui surprennent, déconcertent, bousculent le regard sur le monde et les habitudes de lecture.</li>
+                    <li id="prixcbptppuce">> des romans qui s’écrivent dans la langue d’aujourd’hui, avec ses ruptures, ses silences, ses excès dans l’expression de la dérision comme de l’émotion.</li>
+                    <li id="prixcbptppuce">> des romans qui ont pris le pouls du monde, écrits quelque part, parmi nous. Des textes découverts souvent par de nouveaux éditeurs qu’on aura plaisir à faire entrer dans les bibliothèques.</li>
+                </ul>
+            
+                <p id="prixcbptp">Une sélection « kaléidoscope » qui invite à doter la littérature générale de nouvelles couleurs.</p>
+            
+                <p id="prixcbptp">Quatre titres sont proposés aux lecteurs dès octobre. Le lauréat est désigné au mois de mai de l’année suivante, après regroupement des votes, lors de l’assemblée générale de l’association CBPT.</p>
+            </div>
+            
+                </div>
             </div>
         </div>
 
@@ -80,6 +136,6 @@
             
             </footer>
         
-            <script src="JS/calendrier.js"></script>
+            <script src="JS/prix.js"></script>
         </body>
         </html>
