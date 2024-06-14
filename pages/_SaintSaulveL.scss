@@ -9,3 +9,44 @@
 
     list-style-type: decimal;
 }
+.imageLudo1 {
+    width: 50%;
+
+    margin-right: 300px;
+}
+.textLudo1 p{
+    width: 40%;
+    padding: 8px;
+    line-height: 1.5em;
+    margin: 10px;
+
+}
+.apropos .textLudo1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.apropos .textLudo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.textLudo2 p{
+    width: 40%;
+    padding: 8px;
+    line-height: 1.5em;
+    margin: 10px;
+}   
+.toysKid {
+    width: 20%;
+    border-style: outset;
+    padding: 6px;
+    margin: 10px;    
+    border-style: dashed;
+    border-color: red;
+}
