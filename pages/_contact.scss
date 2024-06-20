@@ -1,28 +1,33 @@
-.contact-container{
-    padding-top: 1em;
+.contact-container {
     margin: 0 auto;
     background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
-    padding: 2% 0;
+    padding: 2%;
 }
 
-.butonsback{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 1em;
+#inputcontact, #messagecontacter {
     width: 100%;
-}
-
-#inputcontact{
-    width: 90%;
-    margin-bottom: 1em;
-}
-
-#send{
+    border-color: rgb(7, 7, 112);
+    border-style: solid;
+    height: 2em;
+    border-radius: 20px;
+    box-sizing: border-box;
     padding: 1em;
-    background-color: rgb(7, 7, 112);;
+}
+
+#messagecontacter {
+    resize: vertical;
+    border-color: rgb(7, 7, 112);
+    border-style: solid;
+    border-radius: 20px 20px 0px 20px;
+    height: 10em;
+    padding: 1em;
+}
+
+#send {
+    padding: 1em;
+    background-color: rgb(7, 7, 112);
     border: none;
     border-radius: 20px;
     font-size: 1em;
@@ -30,12 +35,12 @@
     width: 40%;
 }
 
-#send:hover{
+#send:hover {
     font-weight: bold;
     cursor: pointer;
 }
 
-#reset{
+#reset {
     padding: 1em;
     background-color: rgb(165, 8, 8);
     border: none;
@@ -45,23 +50,40 @@
     width: 40%;
 }
 
-#reset:hover{
+#reset:hover {
     font-weight: bold;
     cursor: pointer;
 }
 
-#contactlabel{
+#contactlabel {
     font-weight: bold;
 }
 
-#areacontact{
-    width: 60%;
-    margin-bottom: 1em;
+#formcontact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 2em;
 }
 
-#formcontact{
-    width: 100%;
+#contactnom {
+    grid-column: 1 / 2;
+}
+
+#mailcontact {
+    grid-column: 2 / 3;
+}
+
+#sujetcontact {
+    grid-column: 3 / 4;
+}
+
+#messagecontact {
+    grid-column: 1 / 4;
+}
+
+#button-container {
+    grid-column: 1 / 4;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
 }
