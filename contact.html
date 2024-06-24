@@ -26,8 +26,8 @@
             </h2>
         </div> 
    
-        <nav >
-            <a href="index.html">Accueil</a>
+        <nav>
+            <a href="#">Accueil</a>
             <div class="dropdown">
                 <a href="#" class="dropbtn">Nos bibliothèques</a>
                 <div class="dropdown-content">
@@ -53,50 +53,63 @@
         <div class="wrapper">
             <h2 class="titre">Contactez-nous</h2>
             <div class="contact-container">
-                <form id="formfontact">
-                <label for="nom" id="contactlabel">Votre nom (obligatoire)</label>
-                <input type="text" name="nom" id="inputcontact">
-                    <br>
-                <label for="mail" id="contactlabel">Votre e-mail (obligatoire)</label>
-                <input type="email" name="mail" id="inputcontact">
-                    <br>
-                <label for="sujet" id="contactlabel">Sujet</label>
-                <br>
-                <input type="text" name="sujet" id="inputcontact">
-                    <br>
-                <label for="message" id="contactlabel">Votre message</label>
-                <br>
-                <textarea name="" id="areacontact"></textarea>
-                    <br>
-                <div class="butonsback">
-                    <input type="submit" value="Envoyer" id="send">
-                    <input type="reset" value="Annuler" id="reset">
+
+                <form id="formcontact">
+
+                    <div id="contactnom">
+                        <label for="nom" id="contactlabel">Votre nom (obligatoire)</label>
+                        <input type="text" name="nom" id="inputcontact">
+                    </div>
+                
+                    <div id="mailcontact">
+                        <label for="mail" id="contactlabel">Votre e-mail (obligatoire)</label>
+                        <input type="email" name="mail" id="inputcontact">
+                    </div>
+                
+                    <div id="sujetcontact">
+                        <label for="sujet" id="contactlabel">Sujet</label>
+                        <input type="text" name="sujet" id="inputcontact">
+                    </div>
+                
+                    <div id="messagecontact">
+                        <label for="message" id="contactlabel">Votre message</label>
+                        <textarea id="messagecontacter" name="message" rows="10" required></textarea>
+                    </div>
+                
+                    <div id="button-container">
+                        <input type="submit" value="Envoyer" id="send">
+                        <input type="reset" value="Annuler" id="reset">
+                    </div>
                 </form>
-                </div>
+                
                 </div>
 
             </div>
         </div>
 
 
+        <footer>
 
-
-            <footer>
-
-                <nav class="nav_footer">
-                    
-                    <div class="copyright">
-                        <p >© Copyright 2024 - CBPT du Nord Hainaut Cambresis, tous droits réservés</p>    
-                    </div>
-                    <a href="index.html">Accueil</a>
-                    <a href="association.html">L'association</a>
-                    <a href="contact.html">Contact</a>
-                    <a href="http://www.uncbpt.fr/" target="_blank"> UNCBPT </a>
-                  
-                </nav>
-            
-            </footer>
+            <nav class="nav_footer">
+                
+                <div class="copyright">
+                    <p >© Copyright 2024 - CBPT du Nord Hainaut Cambresis, tous droits réservés</p>    
+                </div>
+                <a href="index.html">Accueil</a>
+                <a href="association.html">L'association</a>
+                <a href="contact.html">Contact</a>
+                <a href="http://www.uncbpt.fr/" target="_blank"> UNCBPT </a>
+              
+            </nav>
         
-            <script src="JS/calendrier.js"></script>
+        </footer>
+
+            <script>
+                document.getElementById('formcontact').addEventListener('submit', function(event) {
+                    event.preventDefault(); // Empêche la soumission réelle du formulaire
+                    alert('Votre message a bien été envoyé');
+                });
+                </script>
+                
         </body>
         </html>

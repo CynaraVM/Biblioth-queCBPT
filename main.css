@@ -49,17 +49,16 @@ body {
 .banner-area {
   background-color: rgb(65, 100, 200);
   height: 220px;
+  color: white;
 }
 
 .banner-area h1 {
   padding-top: 20px;
-  color: white;
   letter-spacing: 3px;
 }
 
 .banner-area h2 {
   font-family: Roboto, cursive;
-  color: white;
   padding: 10px;
   letter-spacing: 0.1em;
   line-height: 1.5em;
@@ -802,25 +801,30 @@ main hr {
 }
 
 .contact-container {
-  padding-top: 1em;
   margin: 0 auto;
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
-  padding: 2% 0;
+  padding: 2%;
 }
 
-.butonsback {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 1em;
+#inputcontact, #messagecontacter {
   width: 100%;
+  border-color: rgb(7, 7, 112);
+  border-style: solid;
+  height: 2em;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 1em;
 }
 
-#inputcontact {
-  width: 90%;
-  margin-bottom: 1em;
+#messagecontacter {
+  resize: vertical;
+  border-color: rgb(7, 7, 112);
+  border-style: solid;
+  border-radius: 20px 20px 0px 20px;
+  height: 10em;
+  padding: 1em;
 }
 
 #send {
@@ -857,16 +861,33 @@ main hr {
   font-weight: bold;
 }
 
-#areacontact {
-  width: 60%;
-  margin-bottom: 1em;
+#formcontact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  gap: 2em;
 }
 
-#formcontact {
-  width: 100%;
+#contactnom {
+  grid-column: 1/2;
+}
+
+#mailcontact {
+  grid-column: 2/3;
+}
+
+#sujetcontact {
+  grid-column: 3/4;
+}
+
+#messagecontact {
+  grid-column: 1/4;
+}
+
+#button-container {
+  grid-column: 1/4;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .Douai img {
