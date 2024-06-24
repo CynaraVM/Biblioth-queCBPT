@@ -3,9 +3,13 @@
     height: 300px;
     margin: 0 auto;
 }
-.conteneur_Douai {
+.conteneur_fonctionementBiblios {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 150px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 180px ;
     grid-gap: 10px;
+  }
+
+  .box .fa-check {
+    color: deeppink;
   }
