@@ -907,6 +907,11 @@ ol .list_Elesmes {
   list-style-type: lower-roman;
 }
 
+.adresse_entête {
+  width: 400px;
+  margin-left: 80%;
+}
+
 .adresse_Raimbeaucourt {
   text-align: right;
 }/*# sourceMappingURL=main.css.map */
