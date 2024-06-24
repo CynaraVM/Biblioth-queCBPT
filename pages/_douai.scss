@@ -5,11 +5,33 @@
 }
 .conteneur_fonctionementBiblios {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 180px ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 180px 180px;
     grid-gap: 10px;
   }
 
   .box .fa-check {
     color: deeppink;
   }
+  .une {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: turquoise;
+}
+
+.deux {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: darksalmon  ;
+}
+.trois {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+  background-color: lightblue;
+}
+
+.quatre {
+grid-column: 4 / 5;
+grid-row: 1 / 2;
+background-color: khaki;
+}

@@ -71,7 +71,7 @@
 
                     <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="" >
                     <div class="carousel-item">
-                        <div class="imgcarousel" style="background-image: url(images/St_Saulve/heureConte2.jpg);"><h2 class="carouselaccueilsite">L'heure du conte</h2></div>
+                        <div class="imgcarousel" style="background-image: url(images/St_Saulve/heureConte3.jpg);"><h2 class="carouselaccueilsite">L'heure du conte</h2></div>
                     </div>
 
                     <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
@@ -83,8 +83,17 @@
                         <div class="imgcarousel" style="background-image: url(images/St_Saulve/LireOstrevent.png);"><h2 class="carouselaccueilsite">Lire en ostrevent</h2></div>
                     </div>
 
+                    <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <div class="imgcarousel" style="background-image: url(images/St_Saulve/Vitrine1.png);"><h2 class="carouselaccueilsite">Vitrine</h2></div>
+                    </div>
+                    <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <div class="imgcarousel" style="background-image: url(images/St_Saulve/Vitrine2.jpg);"><h2 class="carouselaccueilsite">Vitrine</h2></div>
+                    </div>
 
-
+                    <label for="carousel-8" class="carousel-control next control-7">›</label>
+                    <label for="carousel-7" class="carousel-control prev control-8">‹</label>
                     <label for="carousel-6" class="carousel-control next control-5">›</label>
                     <label for="carousel-5" class="carousel-control prev control-6">‹</label>
                     <label for="carousel-4" class="carousel-control next control-3">›</label>
@@ -92,12 +101,16 @@
                     <label for="carousel-2" class="carousel-control next control-1">›</label>
                     <label for="carousel-1" class="carousel-control prev control-2">‹</label>
 
-                    <label for="carousel-6" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-8" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-7" class="carousel-control next control-6">›</label>
+                    <label for="carousel-6" class="carousel-control prev control-7">‹</label>
                     <label for="carousel-5" class="carousel-control next control-4">›</label>
                     <label for="carousel-4" class="carousel-control prev control-5">‹</label>
                     <label for="carousel-3" class="carousel-control next control-2">›</label>
                     <label for="carousel-2" class="carousel-control prev control-3">‹</label>
-                    <label for="carousel-1" class="carousel-control next control-6">›</label>
+                    <label for="carousel-1" class="carousel-control next control-8">›</label>
+
+
                     <ol class="carousel-indicators">
                         <li>
                             <label for="carousel-1" class="carousel-bullet">•</label>
@@ -116,6 +129,12 @@
                         </li>
                         <li>
                             <label for="carousel-6" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-7" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-8" class="carousel-bullet">•</label>
                         </li>
                     </ol>
                 </div>
@@ -154,13 +173,9 @@
                 <div class="bibliotime" onclick="toggleHours('lewarde')">Lewarde <i class="fa-solid fa-chevron-down"></i></div>
                 <div id="lewarde" class="hours">
                     <ul>
-                        <li>Lundi: Fermée</li>
-                        <li>Mardi: Fermée</li>
-                        <li>Mercredi: 14h00 - 16h00</li>
-                        <li>Jeudi: Fermée</li>
-                        <li>Vendredi: Fermée</li>
-                        <li>Samedi: 9h30 - 11h30</li>
-                        <li>Dimanche: Fermée</li>
+                        <li>Mercredi: 14h00 - 15h30</li>
+                        <li>Dimanche: 10h30 - 11h30</li>
+                        <li>4ème Samedi: 9h30 - 11h00</li>
                     </ul>
                 </div>
                 
@@ -172,7 +187,7 @@
                     </ul>
                 </div>
                 
-                <div class="bibliotime" onclick="toggleHours('saint-saulve')">Saint-Saulve <i class="fa-solid fa-chevron-down"></i></div>
+                <div class="bibliotime" onclick="toggleHours('saint-saulve')">Saint-Saulve Bibliothèque<i class="fa-solid fa-chevron-down"></i></div>
                 <div id="saint-saulve" class="hours">
                     <ul>
                         <li>Lundi: 15h00 - 18h00</li>
@@ -183,6 +198,15 @@
                     </ul>
                 </div>
                 
+                <div class="bibliotime" onclick="toggleHours('saint-saulvel')">Saint-Saulve Ludothèque <i class="fa-solid fa-chevron-down"></i></div>
+                <div id="saint-saulvel" class="hours">
+                    <ul>
+                        <li>Mardi: 16h00 - 18h00</li>
+                        <li>Mercredi: 16h45 - 18h00</li>
+                        <li>Vendredi: 16h00 - 18h00</li>
+                    </ul>
+                </div>
+
                 <script>
                     function toggleHours(id) {
                         // Ferme toutes les catégories ouvertes
@@ -213,8 +237,15 @@
                 
         </div>
 
-        <div class="wrapper">
-            <h2 class="titre">Je cherche, je trouve...</h2>
+         <div class="wrapper">
+          <h2>Devenez bénévole CBPT</h2>   
+          <p>Vous aimez lire, faire partager votre goût de la lecture ? Vous désirez utiliser vos connaissances, donner une partie de votre temps libre, de votre énergie à une activité intéressante intellectuellement?</p>
+            <p>Venez nous rencontrer près de chez vous, dans une de nos implantations: bibliothèque, ludothèque.</p>
+            <p>Pourquoi choisir CBPT? </p>
+            <p> &rarr; pour avoir la possibilité de suivre une formation enrichissante intellectuellement. Nous rappelons neamoins que la formation CBPT est interne, non diplômante: elle ne donne pas accès aux Concours de la Fonction Publique, d'Etat ou Territoriale.</p>
+            <p> &rarr;    pour intégrer des équipes de personnalités et d'horizons divers et par là tisser de nouvelles relations.</p>
+        
+          <!--    <h2 class="titre">Je cherche, je trouve...</h2>
             <form class="backsearch">
 
                 <div class="search-wen">
@@ -235,15 +266,22 @@
                 </div>
                 </div>
                 <input type="submit" value="Recherche avancée" id="advanced">
-            </form>
-        </div>
+            </form>-->
+        </div> 
 
         <div class="wrapper">
-            <h2 class="titre">Calendrier</h2>
+            <h2>L'Union Nationale </h2>
+            <p> L'Association Départementale Nord-Hainaut-Cambrésis est fédérée sous une structure juridique dénommée <a class="siteweb" href="http://www.uncbpt.fr/" target="_blank"> Union Nationale Culture et Bibliothèques Pour Tous (UNCBPT)</a>.</p>
+            <p> L'UNCBPT assure un rôle général d'animation et de coordination envers le réseau, met à sa disposition  des structures d'appui (comptable, juridique...) et développe plus particulièrement les actions suivantes :</p>
+            <p><i class="fa-solid fa-thumbtack"></i> conception et mise en place de  programmes de <strong>formation</strong>  à destination des bibliothécaires (délivrance d'un certificat CBPT)</p>
+            <p><i class="fa-solid fa-thumbtack"></i>  organisation et délivrance des <a class="siteweb" href="http://www.uncbpt.fr/fr/rubrique/2/les-prix-cbpt" target="_blank">prix littéraires CBPT</a> </p>
+            <p><i class="fa-solid fa-thumbtack"></i> publication d'une revue en ligne qui couvre en permanence l'actualité littéraire : <a class="siteweb" href="https://www.les-notes.fr/" target="_blank">les-notes.fr</p>
+
+            <!-- <h2 class="titre">Calendrier</h2>
             <div class="calendar-container">
                 <select id="month-select"></select>
                 <div class="calendar" id="calendar"></div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -252,7 +290,7 @@
         <nav class="nav_footer">
             
             <div class="copyright">
-                <p >© Copyright 2024 - CBPT du Nord Hainaut Cambresis, tous droits réservés</p>    
+                <p >© Copyright 2024 - CBPT du Nord-Hainaut-Cambrésis, tous droits réservés</p>    
             </div>
             <a href="index.html">Accueil</a>
             <a href="association.html">L'association</a>

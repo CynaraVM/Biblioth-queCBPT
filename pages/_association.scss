@@ -4,7 +4,7 @@ main {
     color: rgb(65, 100, 200);
     margin: auto;
     padding: 10px;
-    // background-color: #eae6fc;
+
 }
 
 main h1 {
@@ -16,24 +16,8 @@ main p {
     line-height: 1.8em;
     text-align: justify;
 }
-main ol {
-  width: 60%;
-  margin: auto;
-  padding: 5px;
-  list-style-type: lower-roman;
-}
-main ol li {
-  margin: 5px;
-}
-main p a.siteweb {
-  font-style: italic;
-  color: deeppink;
-}
-main ol li  a.siteweb {
-  font-style: italic;
-  color: deeppink;
 
-}
+
 main p .denomination {
   color: blue;
   font-weight: bold;
@@ -45,9 +29,9 @@ main hr {
 }
   
   .box {
-    background-color: #d0f2fa;
-    border-radius: 10px;
-    border: 3pt dashed rgb(225, 50, 50);
+    background-color: #e6f3f7;
+    border-radius: 15px 50px;
+    border: 3pt groove deeppink;
     display: flex;
     flex-direction: column;
     align-items: left;
