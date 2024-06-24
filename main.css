@@ -48,42 +48,36 @@ body {
 
 .banner-area {
   background-color: rgb(65, 100, 200);
-  height: 200px;
+  height: 220px;
 }
 
-.banner-area h2 {
-  padding-top: 30px;
+.banner-area h1 {
+  padding-top: 20px;
   color: white;
   letter-spacing: 3px;
 }
 
-.banner-area p {
+.banner-area h2 {
   font-family: Roboto, cursive;
   color: white;
   padding: 10px;
   letter-spacing: 0.1em;
   line-height: 1.5em;
-  font-size: 1.5em;
 }
 
-.banner-area p a {
+.banner-area h2 a {
   color: white;
   font-weight: bold;
 }
 
-.banner-area p a:hover {
+.banner-area h2 a:hover {
   color: rgb(65, 100, 200);
   background-color: white;
 }
 
 .logo {
   float: left;
-  text-align: left;
   margin: 10px;
-}
-
-.logo img {
-  width: 100%;
 }
 
 .bouton {
@@ -533,7 +527,6 @@ main {
   color: rgb(65, 100, 200);
   margin: auto;
   padding: 10px;
-  background-color: #eae6fc;
 }
 
 main h1 {
@@ -874,4 +867,25 @@ main hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.Douai img {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.conteneur_Douai {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 100px;
+  grid-gap: 10px;
+}
+
+ol .list_Elesmes {
+  list-style-type: lower-roman;
+}
+
+.adresse_Raimbeaucourt {
+  text-align: right;
 }/*# sourceMappingURL=main.css.map */
