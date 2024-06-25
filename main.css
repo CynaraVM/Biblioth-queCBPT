@@ -562,9 +562,6 @@ main hr {
 .box {
   background-color: #e6f3f7;
   border-radius: 15px 50px;
-  border: 3pt groove deeppink;
-  display: flex;
-  flex-direction: column;
   align-items: left;
   padding: 10px;
   line-height: 1.5em;
@@ -747,7 +744,8 @@ main hr {
 }
 
 .imageLudo1 {
-  width: 50%;
+  width: 30%;
+  margin: 20px;
 }
 
 .textLudo1 p {
@@ -755,6 +753,12 @@ main hr {
   padding: 8px;
   line-height: 1.5em;
   margin: 10px;
+  font-size: 1.5em;
+}
+
+.textLudo2 p {
+  font-size: 1.3em;
+  color: rgb(128, 0, 128);
 }
 
 .apropos .textLudo1 {
@@ -772,6 +776,12 @@ main hr {
   align-items: center;
 }
 
+.apropos p {
+  font-size: 1.3em;
+  color: rgb(128, 0, 128);
+  text-align: center;
+}
+
 .textLudo2 p {
   width: 40%;
   padding: 8px;
@@ -786,6 +796,53 @@ main hr {
   margin: 10px;
   border-style: dashed;
   border-color: red;
+}
+
+.conteneurLudothèque {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 60px;
+  grid-gap: 10px;
+}
+
+.imageLudo {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.boxL {
+  border-radius: 15px 50px;
+  padding: 10px;
+}
+
+.photoUne {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: 5pt double deeppink;
+  background-color: khaki;
+}
+
+.photoDeux {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border: 5pt groove turquoise;
+  border-radius: 50px 15px;
+  background-color: violet;
+}
+
+.photoTrois {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-color: rgb(132, 235, 248);
+  border: 5pt double deeppink;
+}
+
+.photoQuatre {
+  grid-column: 4/5;
+  grid-row: 1/4;
+  background-color: pink;
+  border: 5pt groove yellow;
+  border-radius: 50px 15px;
 }
 
 .contact-container {
@@ -898,12 +955,15 @@ main hr {
 .une {
   grid-column: 1/2;
   grid-row: 2/3;
+  border: 5pt groove deeppink;
   background-color: turquoise;
 }
 
 .deux {
   grid-column: 2/3;
   grid-row: 1/2;
+  border: 5pt groove turquoise;
+  border-radius: 50px 15px;
   background-color: darksalmon;
 }
 
@@ -911,12 +971,15 @@ main hr {
   grid-column: 3/4;
   grid-row: 2/3;
   background-color: lightblue;
+  border: 5pt groove deeppink;
 }
 
 .quatre {
   grid-column: 4/5;
   grid-row: 1/2;
   background-color: khaki;
+  border: 5pt groove lightblue;
+  border-radius: 50px 15px;
 }
 
 ol .list_Elesmes {
