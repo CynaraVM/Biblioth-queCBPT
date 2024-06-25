@@ -59,6 +59,15 @@
     border-style: dashed;
     border-color: red;
 }
+.encart {
+  width: 30%;
+  border-style: outset rgb(128, 0, 128);
+  padding: 6px;
+  margin: 10px;
+}
+.inscriptionEmbrunt {
+  color:rgb(128, 0, 128) ;
+}
 .conteneurLudothèque {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
