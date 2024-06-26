@@ -27,7 +27,21 @@ main hr {
   margin: 20px auto;
   border: 2pt solid black ;
 }
-  
+.conteneurAssociationGeral {
+  display: flex;
+  flex-direction: row;
+}
+
+.conteneurAssociation1 {
+  width: 45%;
+  font-size: 1.2em;
+}  
+.conteneurAssociation2 {
+  width: 45%;
+  margin-left: 10%;
+  color: rgb(128, 0, 128);
+  font-size: 1.2em;
+}
   .box {
     background-color: #e6f3f7;
     border-radius: 15px 50px;
@@ -42,8 +56,11 @@ main hr {
     grid-template-rows: 200px 200px;
     grid-gap: 10px;
   }
-  
 
+  
+.corps {
+  padding-bottom: 120px;
+}
   
 
   

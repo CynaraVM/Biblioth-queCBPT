@@ -573,6 +573,23 @@ main hr {
   border: 2pt solid black;
 }
 
+.conteneurAssociationGeral {
+  display: flex;
+  flex-direction: row;
+}
+
+.conteneurAssociation1 {
+  width: 45%;
+  font-size: 1.2em;
+}
+
+.conteneurAssociation2 {
+  width: 45%;
+  margin-left: 10%;
+  color: rgb(128, 0, 128);
+  font-size: 1.2em;
+}
+
 .box {
   background-color: #e6f3f7;
   border-radius: 15px 50px;
@@ -588,6 +605,10 @@ main hr {
   grid-gap: 10px;
 }
 
+.corps {
+  padding-bottom: 120px;
+}
+
 .prix-container {
   width: 100%;
   padding-top: 1em;
@@ -595,6 +616,7 @@ main hr {
   background-color: #fff;
   border-radius: 10px;
   overflow: hidden;
+  padding-bottom: 100px;
 }
 
 .boutons-container {
@@ -1006,6 +1028,11 @@ main hr {
   background-color: khaki;
   border: 5pt groove lightblue;
   border-radius: 50px 15px;
+}
+
+.list_Elesmes li {
+  padding: 10px;
+  margin-left: 30px;
 }
 
 .adresse_entête {
