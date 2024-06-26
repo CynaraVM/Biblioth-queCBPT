@@ -1000,6 +1000,10 @@ main hr {
   color: deeppink;
 }
 
+.box ul li {
+  color: white;
+}
+
 .une {
   grid-column: 1/2;
   grid-row: 2/3;

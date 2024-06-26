@@ -7,11 +7,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 180px 180px;
-    grid-gap: 10px;
+    grid-gap: 10px; 
   }
 
   .box .fa-check {
     color: deeppink;
+  }
+  .box ul li {
+    color: white;
   }
   .une {
     grid-column: 1 / 2;
